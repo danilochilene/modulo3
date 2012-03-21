@@ -1,0 +1,1188 @@
+Script iniciado em Ter 20 Mar 2012 20:22:16 BRT
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ls
+__init__.py  manage.py  settings.py  typescript  urls.py
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ^C
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ gedit *p[K.py &
+[1] 1952
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ sql^C
+[1]+  Concluído              gedit *.py
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ sq[K[K
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ clear
+[H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ sq[K[Kps ax
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:00 [ksoftirqd/0]
+    4 ?        S      0:00 [migration/0]
+    5 ?        S      0:00 [watchdog/0]
+    6 ?        S      0:00 [migration/1]
+    7 ?        S      0:00 [ksoftirqd/1]
+    8 ?        S      0:00 [watchdog/1]
+    9 ?        S      0:00 [events/0]
+   10 ?        S      0:00 [events/1]
+   11 ?        S      0:00 [cpuset]
+   12 ?        S      0:00 [khelper]
+   13 ?        S      0:00 [netns]
+   14 ?        S      0:00 [async/mgr]
+   15 ?        S      0:00 [pm]
+   17 ?        S      0:00 [sync_supers]
+   18 ?        S      0:00 [bdi-default]
+   19 ?        S      0:00 [kintegrityd/0]
+   20 ?        S      0:00 [kintegrityd/1]
+   21 ?        S      0:00 [kblockd/0]
+   22 ?        S      0:00 [kblockd/1]
+   23 ?        S      0:00 [kacpid]
+   24 ?        S      0:00 [kacpi_notify]
+   25 ?        S      0:00 [kacpi_hotplug]
+   26 ?        S      0:00 [ata_aux]
+   27 ?        S      0:00 [ata_sff/0]
+   28 ?        S      0:00 [ata_sff/1]
+   29 ?        S      0:00 [khubd]
+   30 ?        S      0:00 [kseriod]
+   31 ?        S      0:00 [kmmcd]
+   32 ?        S      0:00 [khungtaskd]
+   33 ?        S      0:00 [kswapd0]
+   34 ?        SN     0:00 [ksmd]
+   35 ?        S      0:00 [aio/0]
+   36 ?        S      0:00 [aio/1]
+   37 ?        S      0:00 [ecryptfs-kthrea]
+   38 ?        S      0:00 [crypto/0]
+   39 ?        S      0:00 [crypto/1]
+   44 ?        S      0:00 [scsi_eh_0]
+   45 ?        S      0:00 [scsi_eh_1]
+   48 ?        S      0:00 [scsi_eh_2]
+   49 ?        S      0:00 [scsi_eh_3]
+   52 ?        S      0:00 [kstriped]
+   53 ?        S      0:00 [kmpathd/0]
+   54 ?        S      0:00 [kmpathd/1]
+   55 ?        S      0:00 [kmpath_handlerd]
+   56 ?        S      0:00 [ksnapd]
+   57 ?        S      0:00 [kondemand/0]
+   58 ?        S      0:00 [kondemand/1]
+   59 ?        S      0:00 [kconservative/0]
+   60 ?        S      0:00 [kconservative/1]
+  204 ?        S      0:00 [usbhid_resumer]
+  231 ?        S      0:00 [flush-8:0]
+  234 ?        S      0:00 [kjournald]
+  253 ?        S      0:00 mountall --daemon
+  278 ?        S      0:00 upstart-udev-bridge --daemon
+  280 ?        S<s    0:00 udevd --daemon
+  385 ?        S<     0:00 udevd --daemon
+  386 ?        S<     0:00 udevd --daemon
+  441 ?        S      0:00 [kpsmoused]
+  493 ?        S      0:00 [cfg80211]
+  584 ?        S      0:00 [i915]
+  587 ?        S      0:01 [phy0]
+  623 ?        S<     0:00 [kslowd000]
+  624 ?        S<     0:00 [kslowd001]
+  743 ?        Sl     0:00 rsyslogd -c4
+  744 ?        Ss     0:00 /usr/sbin/sshd -D
+  757 ?        Ss     0:00 dbus-daemon --system --fork
+  774 ?        Ssl    0:00 gdm-binary
+  780 ?        S      0:00 avahi-daemon: running [UbuntuGC-4.local]
+  783 ?        S      0:00 avahi-daemon: chroot helper
+  791 ?        Sl     0:00 /usr/sbin/console-kit-daemon --no-daemon
+  792 ?        Ssl    0:00 NetworkManager
+  797 ?        S      0:00 /usr/sbin/modem-manager
+  873 ?        Sl     0:00 /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+  881 ?        S      0:00 /sbin/wpa_supplicant -u -s
+  882 ?        Ss     0:00 /usr/sbin/cupsd -C /etc/cups/cupsd.conf
+  911 tty4     Ss+    0:00 /sbin/getty -8 38400 tty4
+  915 tty5     Ss+    0:00 /sbin/getty -8 38400 tty5
+  922 tty2     Ss+    0:00 /sbin/getty -8 38400 tty2
+  923 tty3     Ss+    0:00 /sbin/getty -8 38400 tty3
+  926 tty6     Ss+    0:00 /sbin/getty -8 38400 tty6
+  930 ?        Ss     0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+  935 tty7     Ss+    1:00 /usr/bin/X :0 -nr -verbose -auth /var/run/gdm/auth-for-gdm-SAcUAh/database -nolisten tcp vt7
+  938 ?        Ss     0:00 /usr/sbin/irqbalance
+  942 ?        Ss     0:00 cron
+  943 ?        Ss     0:00 atd
+ 1081 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session
+ 1120 ?        S      0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/dhclient-wlan2.pid -lf /var/lib/dhcp3/dhclient-0d
+ 1161 tty1     Ss+    0:00 /sbin/getty -8 38400 tty1
+ 1168 ?        Sl     0:00 /usr/lib/gdm/gdm-session-worker
+ 1171 ?        S      0:00 /usr/lib/upower/upowerd
+ 1194 ?        S      0:00 /usr/lib/policykit-1/polkitd
+ 1305 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 1324 ?        Ssl    0:00 gnome-session
+ 1358 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session
+ 1361 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session gnome-session
+ 1362 ?        Ss     0:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 1367 ?        S      0:00 /usr/lib/libgconf2-4/gconfd-2
+ 1368 ?        Sl     0:00 gnome-power-manager
+ 1376 ?        Ssl    0:01 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ 1381 ?        S      0:00 /usr/lib/gvfs/gvfsd
+ 1386 ?        Ssl    0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/turma2/.gvfs
+ 1392 ?        Sl     0:00 nm-applet --sm-disable
+ 1397 ?        Sl     0:08 /usr/bin/compiz
+ 1398 ?        S<sl   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ 1400 ?        SNl    0:00 /usr/lib/rtkit/rtkit-daemon
+ 1404 ?        Sl     0:01 gnome-panel
+ 1406 ?        Sl     0:00 nautilus
+ 1407 ?        Sl     0:00 bluetooth-applet
+ 1408 ?        S      0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ 1450 ?        Sl     0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+ 1457 ?        Ssl    0:00 /usr/lib/bonobo-activation/bonobo-activation-server --ac-activate --ior-output-fd=20
+ 1461 ?        S      0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+ 1465 ?        S      0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+ 1467 ?        Sl     0:00 /usr/lib/udisks/udisks-daemon
+ 1468 ?        S      0:00 udisks-daemon: polling /dev/sr0
+ 1470 ?        S      0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 1479 ?        Sl     0:06 /usr/lib/gnome-panel/wnck-applet --oaf-activate-iid=OAFIID:GNOME_Wncklet_Factory --oaf-ior-fd=28
+ 1480 ?        Sl     0:00 /usr/lib/gnome-applets/trashapplet --oaf-activate-iid=OAFIID:GNOME_Panel_TrashApplet_Factory --oaf-ior-fd=22
+ 1482 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 1489 ?        Ss     0:00 gnome-screensaver
+ 1490 ?        S      0:00 /usr/bin/python /usr/lib/ubuntu-sso-client/ubuntu-sso-login
+ 1491 ?        Ss     0:00 /bin/sh -c /usr/bin/compiz-decorator
+ 1492 ?        Sl     0:01 /usr/bin/gtk-window-decorator
+ 1504 ?        Sl     0:00 /usr/lib/gnome-panel/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-ior-fd=32
+ 1505 ?        Sl     0:00 /usr/lib/indicator-applet/indicator-applet-session --oaf-activate-iid=OAFIID:GNOME_FastUserSwitchApplet_Factory --oaf-ior-fd=26
+ 1511 ?        S      0:00 /usr/lib/gvfs/gvfsd-metadata
+ 1512 ?        S      0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ 1515 ?        S      0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+ 1518 ?        Sl     0:00 /usr/lib/indicator-me/indicator-me-service
+ 1525 ?        Sl     0:00 /usr/lib/indicator-session/indicator-session-service
+ 1529 ?        Sl     0:07 gnome-terminal
+ 1532 ?        S      0:00 gnome-pty-helper
+ 1533 pts/0    Ss+    0:00 bash
+ 1555 ?        S      0:00 /bin/sh /usr/lib/firefox-3.6.13/firefox
+ 1559 ?        S      0:00 /bin/sh /usr/lib/firefox-3.6.13/run-mozilla.sh /usr/lib/firefox-3.6.13/firefox-bin
+ 1563 ?        Sl     1:48 /usr/lib/firefox-3.6.13/firefox-bin
+ 1593 ?        S      0:00 /usr/bin/python /usr/share/system-config-printer/applet.py
+ 1604 ?        Sl     0:04 gedit
+ 1607 ?        Sl     0:00 update-notifier
+ 1658 ?        Sl     0:00 /usr/lib/notify-osd/notify-osd
+ 1684 pts/1    Ss     0:00 bash
+ 1884 ?        Sl     0:01 /usr/lib/firefox-3.6.13/plugin-container /usr/lib/flashplugin-installer/libflashplayer.so 1563 plugin true
+ 1925 pts/1    S+     0:00 script
+ 1926 pts/1    S+     0:00 script
+ 1927 pts/2    Ss     0:00 bash -i
+ 1960 pts/2    R+     0:00 ps ax
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ls
+__init__.py  manage.py  settings.py  typescript  urls.py
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ django-admin.py ^C
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./mana^C
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ls
+__init__.py  manage.py  settings.py  typescript  urls.py
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ chmod[Kd +x manage.py 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ .;[K[K./manage.py s[Krunserver[K
+Usage: manage.py subcommand [options] [args]
+
+Options:
+  -v VERBOSITY, --verbosity=VERBOSITY
+                        Verbosity level; 0=minimal output, 1=normal output,
+                        2=all output
+  --settings=SETTINGS   The Python path to a settings module, e.g.
+                        "myproject.settings.main". If this isn't provided, the
+                        DJANGO_SETTINGS_MODULE environment variable will be
+                        used.
+  --pythonpath=PYTHONPATH
+                        A directory to add to the Python path, e.g.
+                        "/home/djangoprojects/myproject".
+  --traceback           Print traceback on exception
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+  changepassword
+  cleanup
+  collectstatic
+  compilemessages
+  createcachetable
+  createsuperuser
+  dbshell
+  diffsettings
+  dumpdata
+  findstatic
+  flush
+  inspectdb
+  loaddata
+  makemessages
+  reset
+  runfcgi
+  runserver
+  shell
+  sql
+  sqlall
+  sqlclear
+  sqlcustom
+  sqlflush
+  sqlindexes
+  sqlinitialdata
+  sqlreset
+  sqlsequencereset
+  startapp
+  syncdb
+  test
+  testserver
+  validate
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py [H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[20/Mar/2012 18:31:12] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 18:32:20] "GET / HTTP/1.1" 200 2055
+[0mValidating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "./manage.py", line 14, in <module>
+    execute_manager(settings)
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 438, in execute_manager
+    utility.execute()
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 379, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 252, in fetch_command
+    app_name = get_commands()[subcommand]
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 101, in get_commands
+    apps = settings.INSTALLED_APPS
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/utils/functional.py", line 276, in __getattr__
+    self._setup()
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/conf/__init__.py", line 125, in __init__
+    raise ValueError("Incorrect timezone setting: %s" % self.TIME_ZONE)
+ValueError: Incorrect timezone setting: America/Brasilia
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Traceback (most recent call last):
+  File "./manage.py", line 14, in <module>
+    execute_manager(settings)
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 438, in execute_manager
+    utility.execute()
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 379, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 252, in fetch_command
+    app_name = get_commands()[subcommand]
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/__init__.py", line 101, in get_commands
+    apps = settings.INSTALLED_APPS
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/utils/functional.py", line 276, in __getattr__
+    self._setup()
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/conf/__init__.py", line 125, in __init__
+    raise ValueError("Incorrect timezone setting: %s" % self.TIME_ZONE)
+ValueError: Incorrect timezone setting: America/Brasilia
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[20/Mar/2012 20:35:56] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:35:57] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:35:59] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:38] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:39] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:39] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:39] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:39] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:39] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:58] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:58] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:59] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:36:59] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:37:00] "GET / HTTP/1.1" 200 2055
+[0mValidating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ Unhandled exception in thread started by <bound method Command.inner_run of <django.contrib.staticfiles.management.commands.runserver.Command object at 0x953994c>>
+Traceback (most recent call last):
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/management/commands/runserver.py", line 107, in inner_run
+    run(self.addr, int(self.port), handler, ipv6=self.use_ipv6)
+  File "/home/turma2/modulo3/mod3.env/lib/python2.6/site-packages/django/core/servers/basehttp.py", line 696, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.6/SocketServer.py", line 224, in serve_forever
+    r, w, e = select.select([self], [], [], poll_interval)
+AttributeError: 'NoneType' object has no attribute 'select'
+^C
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[20/Mar/2012 20:38:27] "GET / HTTP/1.1" 200 2055
+[0mValidating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[20/Mar/2012 20:38:38] "GET /admin HTTP/1.1" 200 2055
+[0m[m[20/Mar/2012 20:38:41] "GET /admin/ HTTP/1.1" 200 2055
+[0mValidating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[35;1m[20/Mar/2012 20:39:42] "GET /admin/ HTTP/1.1" 500 66760
+[0m^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[35;1m[20/Mar/2012 20:40:03] "GET /admin/ HTTP/1.1" 500 120725
+[0m[35;1m[20/Mar/2012 20:40:04] "GET /admin/ HTTP/1.1" 500 120724
+[0m[33m[20/Mar/2012 20:40:45] "GET / HTTP/1.1" 404 1983
+[0mValidating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[33m[20/Mar/2012 20:43:03] "GET / HTTP/1.1" 404 2094
+[0m[35;1m[20/Mar/2012 20:43:40] "GET /admin/ HTTP/1.1" 500 120725
+[0m^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ cçear[K[Kclear
+[H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ pip install sqlite
+Downloading/unpacking sqlite
+  Could not find any downloads that satisfy the requirement sqlite
+No distributions at all found for sqlite
+Storing complete log in /home/turma2/.pip/pip.log
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ pip install sqlite
+Downloading/unpacking sqlite
+  Could not find any downloads that satisfy the requirement sqlite
+No distributions at all found for sqlite
+Storing complete log in /home/turma2/.pip/pip.log
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ pip install sqlite[K[K[K
+Downloading/unpacking sql
+  Could not find any downloads that satisfy the requirement sql
+No distributions at all found for sql
+Storing complete log in /home/turma2/.pip/pip.log
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ pip searc[Kinstall p[Ksql[K[Ksearch sqlite
+PyMOTW                    - Python Module of the Week Examples: sqlite3
+HTSQL                     - A Database Query Language (core & SQLite backend)
+pod                       - A Python Object Database Implemented Using cPickle and SQLite - An easy way to store and fetch Python objects
+sqlkit                    - GUI to edit databases. Many backend supported (Postgres, Sqlite, MySql,...). Based on python, GTK, sqlalchemy. It's split into
+                            a GUI and a very rich package to create database interfaces
+sqlitedict                - Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.
+jblite                    - J-Ben SQLite parsing scripts
+xls2db                    - Convert excel files following a particular schema into sqlite database files.
+pysqlite                  - DB-API 2.0 interface for SQLite 3.x
+sqlite3dbm                - sqlite-backed dictionary
+pyspatialite              - DB-API 2.0 interface for SQLite 3.x with Spatialite 3.x
+macaron                   - Simple object-relational mapper for SQLite3, includes plugin for Bottle web framework
+PyDbLite                  - A pure-Python db engine + Pythonic interface to SQLite and MySQL
+pystaggrelite3            - Pure Python sqlite3 statistics aggregate functions
+caribou                   - python migrations for sqlite databases
+sqmediumlite              - SQLite network connection
+cloud_wiki                - A wiki engine backed by sqlite that provides its own http server, user authentication and is easy to administer from the
+                            command line.
+bottle-sqlite             - SQLite3 integration for Bottle.
+LiteMap                   - Mapping class which stores in SQLite database.
+sqlitefktg                - SQLite foreign key trigger generator
+DatabasePipe              - A pipe to connect various SQL databases to a PipeStack application. Supports PostgreSQL, SQLite and SQLServer 2000 via plugins.
+sqlShort                  - A tiny wrapper for the Python modules MySQLdb and Sqlite
+SQLiteFKTG4SA             - SQLite Foreign Key Trigger Generator for SQLAlchemy
+pydap.handlers.sqlite     - A SQLite handler for Pydap
+Products.ZSQLiteDA        - SQLite database adapter for Zope2
+minidb                    - A simple SQLite3 store for Python objects
+y_serial                  - warehouse compressed Python objects with SQLite
+goatfish                  - A small, schemaless ORM that is backed by SQLite.
+redturtle.entiterritoriali - Package contatins all italian enti territoriali in sqlite db
+easydb                    - Simple SQLite wrapper to make it easier to manage your database
+SQLite3Database           - sqlite3 driver for the DatabasePipe package
+DbMother                  - A python library to manage sqlite and postgresl connectivity
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ pip install pysqlite
+Downloading/unpacking pysqlite
+  Downloading pysqlite-2.6.3.tar.gz (74Kb):   Downloading pysqlite-2.6.3.tar.gz (74Kb):   5%  4.1Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  10%  8.2Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  16%  12Kb   Downloading pysqlite-2.6.3.tar.gz (74Kb):  21%  16Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  27%  20Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  32%  24Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  38%  28Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  43%  32Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  49%  36Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  54%  40Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  60%  45Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  65%  49Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  71%  53Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  76%  57Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  82%  61Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  87%  65Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  93%  69Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):  98%  73Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb): 100%  74Kb  Downloading pysqlite-2.6.3.tar.gz (74Kb):             Downloading pysqlite-2.6.3.tar.gz (74Kb): 74Kb downloaded
+  Running setup.py egg_info for package pysqlite
+Installing collected packages: pysqlite
+  Running setup.py install for pysqlite
+    building 'pysqlite2._sqlite' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DMODULE_NAME="pysqlite2.dbapi2" -DSQLITE_OMIT_LOAD_EXTENSION=1 -I/usr/include/python2.6 -c src/module.c -o build/temp.linux-i686-2.6/src/module.o
+    In file included from src/module.c:24:
+    src/connection.h:26: fatal error: Python.h: Arquivo ou diretório não encontrado
+    compilation terminated.
+    error: command 'gcc' failed with exit status 1
+    Complete output from command /home/turma2/modulo3/mod3.env/bin/python -c "import setuptools; __file__='/home/turma2/modulo3/mod3.env/build/pysqlite/setup.py'; execfile('/home/turma2/modulo3/mod3.env/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-sZDjd8-record/install-record.txt --install-headers /home/turma2/modulo3/mod3.env/include/site/python2.6:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-i686-2.6
+
+creating build/lib.linux-i686-2.6/pysqlite2
+
+copying lib/__init__.py -> build/lib.linux-i686-2.6/pysqlite2
+
+copying lib/dump.py -> build/lib.linux-i686-2.6/pysqlite2
+
+copying lib/dbapi2.py -> build/lib.linux-i686-2.6/pysqlite2
+
+creating build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/dbapi.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/__init__.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/regression.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/dump.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/hooks.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/transactions.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/types.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/factory.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+copying lib/test/userfunctions.py -> build/lib.linux-i686-2.6/pysqlite2/test
+
+creating build/lib.linux-i686-2.6/pysqlite2/test/py25
+
+copying lib/test/py25/__init__.py -> build/lib.linux-i686-2.6/pysqlite2/test/py25
+
+copying lib/test/py25/py25tests.py -> build/lib.linux-i686-2.6/pysqlite2/test/py25
+
+running build_ext
+
+building 'pysqlite2._sqlite' extension
+
+creating build/temp.linux-i686-2.6
+
+creating build/temp.linux-i686-2.6/src
+
+gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DMODULE_NAME="pysqlite2.dbapi2" -DSQLITE_OMIT_LOAD_EXTENSION=1 -I/usr/include/python2.6 -c src/module.c -o build/temp.linux-i686-2.6/src/module.o
+
+In file included from src/module.c:24:
+
+src/connection.h:26: fatal error: Python.h: Arquivo ou diretório não encontrado
+
+compilation terminated.
+
+error: command 'gcc' failed with exit status 1
+
+----------------------------------------
+Command /home/turma2/modulo3/mod3.env/bin/python -c "import setuptools; __file__='/home/turma2/modulo3/mod3.env/build/pysqlite/setup.py'; execfile('/home/turma2/modulo3/mod3.env/build/pysqlite/setup.py')" install --single-version-externally-managed --record /tmp/pip-sZDjd8-record/install-record.txt --install-headers /home/turma2/modulo3/mod3.env/include/site/python2.6 failed with error code 1
+Storing complete log in /home/turma2/.pip/pip.log
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ gcc
+gcc: no input files
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ SQL[K[K[Ksqç[K^C
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ [19P(reverse-i-search)`':[Cr': pip search sqliteu': ./manage.py runserver[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ python manage.py 
+Usage: manage.py subcommand [options] [args]
+
+Options:
+  -v VERBOSITY, --verbosity=VERBOSITY
+                        Verbosity level; 0=minimal output, 1=normal output,
+                        2=all output
+  --settings=SETTINGS   The Python path to a settings module, e.g.
+                        "myproject.settings.main". If this isn't provided, the
+                        DJANGO_SETTINGS_MODULE environment variable will be
+                        used.
+  --pythonpath=PYTHONPATH
+                        A directory to add to the Python path, e.g.
+                        "/home/djangoprojects/myproject".
+  --traceback           Print traceback on exception
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+  changepassword
+  cleanup
+  collectstatic
+  compilemessages
+  createcachetable
+  createsuperuser
+  dbshell
+  diffsettings
+  dumpdata
+  findstatic
+  flush
+  inspectdb
+  loaddata
+  makemessages
+  reset
+  runfcgi
+  runserver
+  shell
+  sql
+  sqlall
+  sqlclear
+  sqlcustom
+  sqlflush
+  sqlindexes
+  sqlinitialdata
+  sqlreset
+  sqlsequencereset
+  startapp
+  syncdb
+  test
+  testserver
+  validate
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ python manage.py inspectdb
+# This is an auto-generated Django model module.
+# You'll have to do the following manually to clean this up:
+#     * Rearrange models' order
+#     * Make sure each model has one field with primary_key=True
+# Feel free to rename the models, but don't rename db_table values or field names.
+#
+# Also note: You'll have to insert the output of 'django-admin.py sqlcustom [appname]'
+# into your database.
+
+from django.db import models
+
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ python manage.py inspectdb[Ksyncdb[K^C
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ [19P(reverse-i-search)`':[Cu': ./manage.py runserver[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[35;1m[20/Mar/2012 20:53:40] "GET /admin/ HTTP/1.1" 500 109460
+[0m[35;1m[20/Mar/2012 20:53:50] "GET /admin/ HTTP/1.1" 500 109459
+[0m^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ./manage.py runserver[Ksyncdb
+Creating tables ...
+Creating table auth_permission
+Creating table auth_group_permissions
+Creating table auth_group
+Creating table auth_user_user_permissions
+Creating table auth_user_groups
+Creating table auth_user
+Creating table auth_message
+Creating table django_content_type
+Creating table django_session
+Creating table django_site
+Creating table django_admin_log
+
+You just installed Django's auth system, which means you don't have any superusers defined.
+Would you like to create one now? (yes/no): yes
+Username (Leave blank to use 'turma2'): danilo^[        admin
+E-mail address: sha   danilo@idev.com.br
+Password: 
+Password (again): 
+Superuser created successfully.
+Installing custom SQL ...
+Installing indexes ...
+No fixtures found.
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ls
+__init__.py  __init__.pyc  [0m[01;32mmanage.py[0m  pizzaria.sqlite  settings.py  settings.pyc  typescript  urls.py  urls.pyc
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ python manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[20/Mar/2012 20:56:28] "GET /admin/ HTTP/1.1" 200 2047
+[0m[32m[20/Mar/2012 20:56:33] "POST /admin/ HTTP/1.1" 302 0
+[0m[m[20/Mar/2012 20:56:33] "GET /admin/ HTTP/1.1" 200 3547
+[0m[m[20/Mar/2012 20:56:45] "GET /admin/doc/ HTTP/1.1" 200 1428
+[0m[m[20/Mar/2012 20:56:52] "GET /admin/auth/group/ HTTP/1.1" 200 3725
+[0m[m[20/Mar/2012 20:56:52] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:56:55] "GET /admin/auth/user/ HTTP/1.1" 200 5952
+[0m[m[20/Mar/2012 20:56:55] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:56:57] "GET /admin/ HTTP/1.1" 200 3547
+[0m[m[20/Mar/2012 20:57:59] "GET /admin/auth/user/ HTTP/1.1" 200 5952
+[0m[m[20/Mar/2012 20:57:59] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:58:04] "GET /admin/auth/user/1/ HTTP/1.1" 200 13514
+[0m[m[20/Mar/2012 20:58:04] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:58:22] "GET /admin/auth/user/ HTTP/1.1" 200 5952
+[0m[m[20/Mar/2012 20:58:23] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:58:25] "GET /admin/auth/user/?is_superuser__exact=1 HTTP/1.1" 200 6293
+[0m[m[20/Mar/2012 20:58:25] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:58:27] "GET /admin/auth/user/?is_superuser__exact=0 HTTP/1.1" 200 5353
+[0m[m[20/Mar/2012 20:58:27] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:58:28] "GET /admin/auth/user/? HTTP/1.1" 200 5952
+[0m[m[20/Mar/2012 20:58:28] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:58:35] "GET /admin/auth/user/1/ HTTP/1.1" 200 13514
+[0m[m[20/Mar/2012 20:58:35] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:58:58] "GET /admin/auth/user/1/history/ HTTP/1.1" 200 2121
+[0m[m[20/Mar/2012 20:59:03] "GET /admin/ HTTP/1.1" 200 3547
+[0m[m[20/Mar/2012 20:59:10] "GET /admin/password_change/ HTTP/1.1" 200 2623
+[0m[m[20/Mar/2012 20:59:13] "POST /admin/password_change/ HTTP/1.1" 200 2888
+[0m[m[20/Mar/2012 20:59:17] "GET /admin/ HTTP/1.1" 200 3547
+[0m[m[20/Mar/2012 20:59:19] "GET /admin/sites/site/ HTTP/1.1" 200 4868
+[0m[m[20/Mar/2012 20:59:19] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:59:20] "GET /admin/sites/site/1/ HTTP/1.1" 200 4284
+[0m[m[20/Mar/2012 20:59:20] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[32m[20/Mar/2012 20:59:31] "POST /admin/sites/site/1/ HTTP/1.1" 302 0
+[0m[m[20/Mar/2012 20:59:31] "GET /admin/sites/site/ HTTP/1.1" 200 5015
+[0m[m[20/Mar/2012 20:59:31] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:59:34] "GET /admin/ HTTP/1.1" 200 3853
+[0m[m[20/Mar/2012 20:59:36] "GET /admin/sites/site/ HTTP/1.1" 200 4876
+[0m[m[20/Mar/2012 20:59:36] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:59:38] "GET /admin/sites/site/1/ HTTP/1.1" 200 4296
+[0m[m[20/Mar/2012 20:59:38] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 20:59:39] "GET /admin/sites/site/1/history/ HTTP/1.1" 200 2459
+[0m[m[20/Mar/2012 20:59:44] "GET /admin/ HTTP/1.1" 200 3853
+[0m[m[20/Mar/2012 21:03:46] "GET /admin/auth/user/add/ HTTP/1.1" 200 5063
+[0m[m[20/Mar/2012 21:03:46] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[32m[20/Mar/2012 21:03:56] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[0m[m[20/Mar/2012 21:03:56] "GET /admin/auth/user/2/ HTTP/1.1" 200 13617
+[0m[m[20/Mar/2012 21:03:56] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:04:04] "GET /admin/ HTTP/1.1" 200 4120
+[0m[m[20/Mar/2012 21:04:44] "GET /admin/auth/user/ HTTP/1.1" 200 6237
+[0m[m[20/Mar/2012 21:04:45] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:04:46] "GET /admin/auth/user/2/ HTTP/1.1" 200 13449
+[0m[m[20/Mar/2012 21:04:46] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:07:43] "GET /admin/ HTTP/1.1" 200 4120
+[0m[m[20/Mar/2012 21:07:47] "GET /admin/auth/user/ HTTP/1.1" 200 6237
+[0m[m[20/Mar/2012 21:07:47] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:08:03] "GET /admin/auth/user/1/ HTTP/1.1" 200 13514
+[0m[m[20/Mar/2012 21:08:03] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:08:34] "GET /admin/auth/user/ HTTP/1.1" 200 6237
+[0m[m[20/Mar/2012 21:08:34] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:08:35] "GET /admin/auth/user/2/ HTTP/1.1" 200 13449
+[0m[m[20/Mar/2012 21:08:35] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:08:48] "GET /admin/auth/user/ HTTP/1.1" 200 6237
+[0m[m[20/Mar/2012 21:08:48] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:08:56] "GET /admin/auth/user/2/ HTTP/1.1" 200 13449
+[0m[m[20/Mar/2012 21:08:56] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[32m[20/Mar/2012 21:09:03] "POST /admin/auth/user/2/ HTTP/1.1" 302 0
+[0m[m[20/Mar/2012 21:09:03] "GET /admin/auth/user/ HTTP/1.1" 200 6369
+[0m[m[20/Mar/2012 21:09:03] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:09:54] "GET /admin/auth/user/?is_superuser__exact=1 HTTP/1.1" 200 6369
+[0m[m[20/Mar/2012 21:09:54] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:10:01] "GET /admin/auth/user/?is_superuser__exact=0 HTTP/1.1" 200 6356
+[0m[m[20/Mar/2012 21:10:01] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:10:03] "GET /admin/auth/user/? HTTP/1.1" 200 6237
+[0m[m[20/Mar/2012 21:10:03] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:10:39] "GET /admin/auth/user/?is_superuser__exact=1 HTTP/1.1" 200 6369
+[0m[m[20/Mar/2012 21:10:39] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:10:40] "GET /admin/auth/user/? HTTP/1.1" 200 6237
+[0m[m[20/Mar/2012 21:10:40] "GET /admin/jsi18n/ HTTP/1.1" 200 4710
+[0m[m[20/Mar/2012 21:33:12] "GET /admin/ HTTP/1.1" 200 4390
+[0m^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ 
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ls
+__init__.py  __init__.pyc  [0m[01;32mmanage.py[0m  pizzaria.sqlite  settings.py  settings.pyc  typescript  urls.py  urls.pyc
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ python manage.py 
+Usage: manage.py subcommand [options] [args]
+
+Options:
+  -v VERBOSITY, --verbosity=VERBOSITY
+                        Verbosity level; 0=minimal output, 1=normal output,
+                        2=all output
+  --settings=SETTINGS   The Python path to a settings module, e.g.
+                        "myproject.settings.main". If this isn't provided, the
+                        DJANGO_SETTINGS_MODULE environment variable will be
+                        used.
+  --pythonpath=PYTHONPATH
+                        A directory to add to the Python path, e.g.
+                        "/home/djangoprojects/myproject".
+  --traceback           Print traceback on exception
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+  changepassword
+  cleanup
+  collectstatic
+  compilemessages
+  createcachetable
+  createsuperuser
+  dbshell
+  diffsettings
+  dumpdata
+  findstatic
+  flush
+  inspectdb
+  loaddata
+  makemessages
+  reset
+  runfcgi
+  runserver
+  shell
+  sql
+  sqlall
+  sqlclear
+  sqlcustom
+  sqlflush
+  sqlindexes
+  sqlinitialdata
+  sqlreset
+  sqlsequencereset
+  startapp
+  syncdb
+  test
+  testserver
+  validate
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ python manage.py startrun
+Unknown command: 'startrun'
+Type 'manage.py help' for usage.
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ python manage.py startrun[Krunserver
+Validating models...
+
+0 errors found
+Django version 1.3.1, using settings 'pizzaria.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[m[20/Mar/2012 21:42:19] "GET /admin/ HTTP/1.1" 200 4390
+[0m^C]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ ls
+__init__.py  __init__.pyc  [0m[01;32mmanage.py[0m  pizzaria.sqlite  settings.py  settings.pyc  typescript  urls.py  urls.pyc
+]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ cd ..
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls
+[0m[01;34mpizzaria[0m
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ pwd
+/home/turma2/modulo3/repo
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls
+[0m[01;34mpizzaria[0m
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ gedit .gitignore.[K
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git init
+Initialized empty Git repository in /home/turma2/modulo3/repo/.git/
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git initedit .gitignore[8Pit init[Kw
+ 21:47:27 up  2:16,  5 users,  load average: 0,58, 0,50, 0,40
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+turma2   tty7     :0               19:31    2:16m  3:00   0.13s gnome-session
+turma2   pts/0    :0.0             19:31    1:01m  0.51s  0.51s bash
+turma2   pts/1    :0.0             19:48    0.00s  0.64s  0.01s script
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ś iax[K[K[K[K[Kw
+ 21:47:30 up  2:16,  5 users,  load average: 0,54, 0,50, 0,39
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+turma2   tty7     :0               19:31    2:16m  3:00   0.13s gnome-session
+turma2   pts/0    :0.0             19:31    1:01m  0.51s  0.51s bash
+turma2   pts/1    :0.0             19:48    0.00s  0.64s  0.01s script
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2868  1704 ?        Ss   19:30   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    19:30   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    19:30   0:00 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    19:30   0:00 [migration/0]
+root         5  0.0  0.0      0     0 ?        S    19:30   0:00 [watchdog/0]
+root         6  0.0  0.0      0     0 ?        S    19:30   0:00 [migration/1]
+root         7  0.0  0.0      0     0 ?        S    19:30   0:00 [ksoftirqd/1]
+root         8  0.0  0.0      0     0 ?        S    19:30   0:00 [watchdog/1]
+root         9  0.0  0.0      0     0 ?        S    19:30   0:00 [events/0]
+root        10  0.0  0.0      0     0 ?        S    19:30   0:00 [events/1]
+root        11  0.0  0.0      0     0 ?        S    19:30   0:00 [cpuset]
+root        12  0.0  0.0      0     0 ?        S    19:30   0:00 [khelper]
+root        13  0.0  0.0      0     0 ?        S    19:30   0:00 [netns]
+root        14  0.0  0.0      0     0 ?        S    19:30   0:00 [async/mgr]
+root        15  0.0  0.0      0     0 ?        S    19:30   0:00 [pm]
+root        17  0.0  0.0      0     0 ?        S    19:30   0:00 [sync_supers]
+root        18  0.0  0.0      0     0 ?        S    19:30   0:00 [bdi-default]
+root        19  0.0  0.0      0     0 ?        S    19:30   0:00 [kintegrityd/0]
+root        20  0.0  0.0      0     0 ?        S    19:30   0:00 [kintegrityd/1]
+root        21  0.0  0.0      0     0 ?        S    19:30   0:00 [kblockd/0]
+root        22  0.0  0.0      0     0 ?        S    19:30   0:00 [kblockd/1]
+root        23  0.0  0.0      0     0 ?        S    19:30   0:00 [kacpid]
+root        24  0.0  0.0      0     0 ?        S    19:30   0:00 [kacpi_notify]
+root        25  0.0  0.0      0     0 ?        S    19:30   0:00 [kacpi_hotplug]
+root        26  0.0  0.0      0     0 ?        S    19:30   0:00 [ata_aux]
+root        27  0.0  0.0      0     0 ?        S    19:30   0:00 [ata_sff/0]
+root        28  0.0  0.0      0     0 ?        S    19:30   0:00 [ata_sff/1]
+root        29  0.0  0.0      0     0 ?        S    19:30   0:00 [khubd]
+root        30  0.0  0.0      0     0 ?        S    19:30   0:00 [kseriod]
+root        31  0.0  0.0      0     0 ?        S    19:30   0:00 [kmmcd]
+root        32  0.0  0.0      0     0 ?        S    19:30   0:00 [khungtaskd]
+root        33  0.0  0.0      0     0 ?        S    19:30   0:00 [kswapd0]
+root        34  0.0  0.0      0     0 ?        SN   19:30   0:00 [ksmd]
+root        35  0.0  0.0      0     0 ?        S    19:30   0:00 [aio/0]
+root        36  0.0  0.0      0     0 ?        S    19:30   0:00 [aio/1]
+root        37  0.0  0.0      0     0 ?        S    19:30   0:00 [ecryptfs-kthrea]
+root        38  0.0  0.0      0     0 ?        S    19:30   0:00 [crypto/0]
+root        39  0.0  0.0      0     0 ?        S    19:30   0:00 [crypto/1]
+root        44  0.0  0.0      0     0 ?        S    19:30   0:01 [scsi_eh_0]
+root        45  0.0  0.0      0     0 ?        S    19:30   0:00 [scsi_eh_1]
+root        48  0.0  0.0      0     0 ?        S    19:30   0:00 [scsi_eh_2]
+root        49  0.0  0.0      0     0 ?        S    19:30   0:00 [scsi_eh_3]
+root        52  0.0  0.0      0     0 ?        S    19:30   0:00 [kstriped]
+root        53  0.0  0.0      0     0 ?        S    19:30   0:00 [kmpathd/0]
+root        54  0.0  0.0      0     0 ?        S    19:30   0:00 [kmpathd/1]
+root        55  0.0  0.0      0     0 ?        S    19:30   0:00 [kmpath_handlerd]
+root        56  0.0  0.0      0     0 ?        S    19:30   0:00 [ksnapd]
+root        57  0.0  0.0      0     0 ?        S    19:30   0:00 [kondemand/0]
+root        58  0.0  0.0      0     0 ?        S    19:30   0:00 [kondemand/1]
+root        59  0.0  0.0      0     0 ?        S    19:30   0:00 [kconservative/0]
+root        60  0.0  0.0      0     0 ?        S    19:30   0:00 [kconservative/1]
+root       204  0.0  0.0      0     0 ?        S    19:30   0:00 [usbhid_resumer]
+root       231  0.0  0.0      0     0 ?        S    19:30   0:00 [flush-8:0]
+root       234  0.0  0.0      0     0 ?        S    19:30   0:00 [kjournald]
+root       253  0.0  0.0   4924  1260 ?        S    19:30   0:00 mountall --daemon
+root       278  0.0  0.0   2392   612 ?        S    19:30   0:00 upstart-udev-bridge --daemon
+root       280  0.0  0.0   2720  1088 ?        S<s  19:30   0:00 udevd --daemon
+root       385  0.0  0.0   2760  1028 ?        S<   19:30   0:00 udevd --daemon
+root       386  0.0  0.0   2760   972 ?        S<   19:30   0:00 udevd --daemon
+root       441  0.0  0.0      0     0 ?        S    19:30   0:00 [kpsmoused]
+root       493  0.0  0.0      0     0 ?        S    19:30   0:00 [cfg80211]
+root       584  0.0  0.0      0     0 ?        S    19:30   0:00 [i915]
+root       587  0.0  0.0      0     0 ?        S    19:30   0:04 [phy0]
+root       623  0.0  0.0      0     0 ?        S<   19:30   0:00 [kslowd000]
+root       624  0.0  0.0      0     0 ?        S<   19:30   0:00 [kslowd001]
+syslog     743  0.0  0.0  34752  1320 ?        Sl   19:30   0:00 rsyslogd -c4
+root       744  0.0  0.0   5632  2196 ?        Ss   19:30   0:00 /usr/sbin/sshd -D
+102        757  0.0  0.0   3492  1720 ?        Ss   19:30   0:01 dbus-daemon --system --fork
+root       774  0.0  0.0  19924  3388 ?        Ssl  19:30   0:00 gdm-binary
+avahi      780  0.0  0.0   3012  1332 ?        S    19:30   0:00 avahi-daemon: running [UbuntuGC-4.local]
+avahi      783  0.0  0.0   3012   440 ?        S    19:30   0:00 avahi-daemon: chroot helper
+root       791  0.0  0.0  21188  3132 ?        Sl   19:30   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root       792  0.0  0.1  19200  4172 ?        Ssl  19:30   0:00 NetworkManager
+root       797  0.0  0.0   4432  2388 ?        S    19:30   0:00 /usr/sbin/modem-manager
+root       873  0.0  0.1  21908  3920 ?        Sl   19:30   0:00 /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+root       881  0.0  0.0   4900  2324 ?        S    19:30   0:00 /sbin/wpa_supplicant -u -s
+root       882  0.0  0.0   6792  2408 ?        Ss   19:30   0:00 /usr/sbin/cupsd -C /etc/cups/cupsd.conf
+root       911  0.0  0.0   1856   556 tty4     Ss+  19:30   0:00 /sbin/getty -8 38400 tty4
+root       915  0.0  0.0   1856   556 tty5     Ss+  19:30   0:00 /sbin/getty -8 38400 tty5
+root       926  0.0  0.0   1856   560 tty6     Ss+  19:30   0:00 /sbin/getty -8 38400 tty6
+root       930  0.0  0.0   2112   888 ?        Ss   19:30   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root       935  2.2  0.5  26328 18116 tty7     Ss+  19:30   3:00 /usr/bin/X :0 -nr -verbose -auth /var/run/gdm/auth-for-gdm-SAcUAh/database -nolisten tcp vt7
+root       938  0.0  0.0   2928   608 ?        Ss   19:30   0:00 /usr/sbin/irqbalance
+root       942  0.0  0.0   2456   868 ?        Ss   19:30   0:00 cron
+daemon     943  0.0  0.0   2316   360 ?        Ss   19:30   0:00 atd
+gdm       1081  0.0  0.0   3456   556 ?        S    19:30   0:00 /usr/bin/dbus-launch --exit-with-session
+root      1120  0.0  0.0   2296  1004 ?        S    19:30   0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/dhclient-wl
+root      1161  0.0  0.0   1856   560 tty1     Ss+  19:30   0:00 /sbin/getty -8 38400 tty1
+root      1168  0.0  0.0  20108  3208 ?        Sl   19:30   0:00 /usr/lib/gdm/gdm-session-worker
+root      1171  0.0  0.0   8424  3172 ?        S    19:30   0:00 /usr/lib/upower/upowerd
+root      1194  0.0  0.1   6748  4096 ?        S    19:30   0:00 /usr/lib/policykit-1/polkitd
+turma2    1305  0.0  0.0  25244  2684 ?        Sl   19:31   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+turma2    1324  0.0  0.2  36696  7596 ?        Ssl  19:31   0:00 gnome-session
+turma2    1358  0.0  0.0   3348   200 ?        Ss   19:31   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session
+turma2    1361  0.0  0.0   3456   556 ?        S    19:31   0:00 /usr/bin/dbus-launch --exit-with-session gnome-session
+turma2    1362  0.0  0.0   4272  1676 ?        Ss   19:31   0:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+turma2    1367  0.0  0.1   9708  4336 ?        S    19:31   0:01 /usr/lib/libgconf2-4/gconfd-2
+turma2    1368  0.0  0.2  30528  8284 ?        Sl   19:31   0:00 gnome-power-manager
+turma2    1376  0.0  0.3 101188 11592 ?        Ssl  19:31   0:02 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+turma2    1381  0.0  0.0   7568  2392 ?        S    19:31   0:00 /usr/lib/gvfs/gvfsd
+turma2    1386  0.0  0.0  30656  2080 ?        Ssl  19:31   0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/turma2/.gvfs
+turma2    1392  0.0  0.3 120376 12132 ?        Sl   19:31   0:00 nm-applet --sm-disable
+turma2    1397  0.2  0.6  58808 24360 ?        Sl   19:31   0:20 /usr/bin/compiz
+turma2    1398  0.0  0.1 161288  4824 ?        S<sl 19:31   0:06 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1400  0.0  0.0  22992  1188 ?        SNl  19:31   0:00 /usr/lib/rtkit/rtkit-daemon
+turma2    1404  0.0  0.4  82712 17800 ?        Sl   19:31   0:04 gnome-panel
+turma2    1406  0.0  0.5 117872 19260 ?        Sl   19:31   0:00 nautilus
+turma2    1407  0.0  0.2  28348  7740 ?        Sl   19:31   0:00 bluetooth-applet
+turma2    1408  0.0  0.1  19900  6372 ?        S    19:31   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+turma2    1450  0.0  0.0  20684  3276 ?        Sl   19:31   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+turma2    1457  0.0  0.1  52920  3900 ?        Ssl  19:31   0:00 /usr/lib/bonobo-activation/bonobo-activation-server --ac-activate --ior-output-fd=20
+turma2    1461  0.0  0.0   9188  3420 ?        S    19:31   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+turma2    1465  0.0  0.0   8212  2988 ?        S    19:31   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+root      1467  0.0  0.0  16088  3120 ?        Sl   19:31   0:00 /usr/lib/udisks/udisks-daemon
+root      1468  0.0  0.0   5616   732 ?        S    19:31   0:01 udisks-daemon: polling /dev/sr0
+turma2    1470  0.0  0.0   8192  2156 ?        S    19:31   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+turma2    1479  0.1  0.3  79012 14296 ?        Sl   19:31   0:15 /usr/lib/gnome-panel/wnck-applet --oaf-activate-iid=OAFIID:GNOME_Wncklet_Factory --oaf-ior-f
+turma2    1480  0.0  0.3  77108 11072 ?        Sl   19:31   0:00 /usr/lib/gnome-applets/trashapplet --oaf-activate-iid=OAFIID:GNOME_Panel_TrashApplet_Factory
+turma2    1482  0.0  0.0  18000  2232 ?        Sl   19:31   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+turma2    1489  0.0  0.0  28952  2952 ?        Ss   19:31   0:00 gnome-screensaver
+turma2    1490  0.0  0.5  34188 19040 ?        S    19:31   0:00 /usr/bin/python /usr/lib/ubuntu-sso-client/ubuntu-sso-login
+turma2    1491  0.0  0.0   1896   500 ?        Ss   19:31   0:00 /bin/sh -c /usr/bin/compiz-decorator
+turma2    1492  0.0  0.2  29592 10708 ?        Sl   19:31   0:03 /usr/bin/gtk-window-decorator
+turma2    1504  0.0  0.4  41508 14612 ?        Sl   19:31   0:01 /usr/lib/gnome-panel/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-
+turma2    1505  0.0  0.3  86724 13492 ?        Sl   19:31   0:00 /usr/lib/indicator-applet/indicator-applet-session --oaf-activate-iid=OAFIID:GNOME_FastUserS
+turma2    1511  0.0  0.0   7292  2028 ?        S    19:31   0:00 /usr/lib/gvfs/gvfsd-metadata
+turma2    1512  0.0  0.2  20016  7224 ?        S    19:31   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+turma2    1515  0.0  0.0   7780  2540 ?        S    19:31   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+turma2    1518  0.0  0.1  28188  4952 ?        Sl   19:31   0:00 /usr/lib/indicator-me/indicator-me-service
+turma2    1525  0.0  0.1  27344  5280 ?        Sl   19:31   0:00 /usr/lib/indicator-session/indicator-session-service
+turma2    1529  0.1  0.4  95264 15708 ?        Rl   19:31   0:14 gnome-terminal
+turma2    1532  0.0  0.0   2052   708 ?        S    19:31   0:00 gnome-pty-helper
+turma2    1533  0.0  0.0   6728  3388 pts/0    Ss+  19:31   0:00 bash
+turma2    1555  0.0  0.0   1896   504 ?        S    19:31   0:00 /bin/sh /usr/lib/firefox-3.6.13/firefox
+turma2    1559  0.0  0.0   1896   508 ?        S    19:31   0:00 /bin/sh /usr/lib/firefox-3.6.13/run-mozilla.sh /usr/lib/firefox-3.6.13/firefox-bin
+turma2    1563  3.5  3.7 492584 135524 ?       Sl   19:31   4:53 /usr/lib/firefox-3.6.13/firefox-bin
+turma2    1593  0.0  0.4  33352 16028 ?        S    19:31   0:00 /usr/bin/python /usr/share/system-config-printer/applet.py
+turma2    1604  0.3  2.3 175000 83864 ?        Sl   19:31   0:25 gedit
+turma2    1607  0.0  0.3  75240 11876 ?        Sl   19:32   0:00 update-notifier
+turma2    1658  0.0  0.2  28516  7260 ?        Sl   19:48   0:00 /usr/lib/notify-osd/notify-osd
+turma2    1684  0.0  0.0   6876  3448 pts/1    Ss   19:48   0:00 bash
+turma2    1884  0.1  0.7 193868 27168 ?        Sl   20:17   0:09 /usr/lib/firefox-3.6.13/plugin-container /usr/lib/flashplugin-installer/libflashplayer.so 15
+turma2    1925  0.0  0.0   4316   772 pts/1    S+   20:22   0:00 script
+turma2    1926  0.0  0.0   4320   348 pts/1    S+   20:22   0:00 script
+turma2    1927  0.0  0.0   6712  3372 pts/2    Ss   20:22   0:00 bash -i
+turma2    1995  0.0  0.1  21072  3732 ?        Sl   20:31   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.10 /org/gtk/gvfs/exec_spaw/2
+turma2    2112  0.0  0.0  22260  2368 ?        Sl   20:54   0:00 /usr/lib/d-conf/dconf-service
+root      2319  0.0  0.0   1856   564 tty3     Ss+  21:28   0:00 /sbin/getty -8 38400 tty3
+root      3103  0.0  0.0   1856   564 tty2     Ss+  21:32   0:00 /sbin/getty -8 38400 tty2
+turma2    3149  0.0  0.0   4588  1068 pts/2    R+   21:47   0:00 ps aux
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ [10P(reverse-i-search)`':[Cs': ps auxt': python manage.py startrun[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ [10P(reverse-i-search)`':[Cu': ps auxn': python manage.py runserver]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ python manage.py runserver
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ python manage.py runservers aux[Kw[Kgit initedit .gitignore[8Pit init
+Reinitialized existing Git repository in /home/turma2/modulo3/repo/.git/
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls -la
+total 20
+drwxr-xr-x 4 turma2 turmas 4096 2012-03-20 21:45 [0m[01;34m.[0m
+drwxr-xr-x 4 turma2 turmas 4096 2012-03-20 20:16 [01;34m..[0m
+drwxr-xr-x 7 turma2 turmas 4096 2012-03-20 22:00 [01;34m.git[0m
+-rw-r--r-- 1 turma2 turmas   15 2012-03-20 21:44 .gitignore
+drwxr-xr-x 2 turma2 turmas 4096 2012-03-20 21:09 [01;34mpizzaria[0m
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.gitignore
+#	pizzaria/
+nothing added to commit but untracked files present (use "git add" to track)
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino "Danilo Chilene"
+error: key does not contain a section: bicofino
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git add .gitt[Ko[K[K[K[K[K
+.git/       .gitignore  pizzaria/   
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git add .gitignore 
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .gitignore
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	pizzaria/
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git statusadd .gitignore config --global bicofino "Danilo Chilene"
+error: key does not contain a section: bicofino
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino "Danilo Chilene"
+error: key does not contain a section: bicofino
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino "Danilo Chilene"
+error: key does not contain a section: bicofino
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino "Danilo Chilene"[1@@[1@g[1@m[1@a[1@i[1@l[1@.[1@c[1@o[1@m
+error: invalid key: bicofino@gmail.com
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino@gmail.com "Danilo Chilene"[10P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+error: key does not contain a section: bicofino
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --list
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --listglobal bicofino "Danilo Chilene"
+error: key does not contain a section: bicofino
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino "Danilo Chilene"list[K
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ çs[K[Kls
+[0m[01;34mpizzaria[0m
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ gedit README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .gitignore
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	README
+#	pizzaria/
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ pwd
+/home/turma2/modulo3/repo
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls
+[0m[01;34mpizzaria[0m  README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ lspwdgit status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .gitignore
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	README
+#	pizzaria/
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git add README 
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git add README [5Pstatus
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .gitignore
+#	new file:   README
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	pizzaria/
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git commig[Kt -m "Comitando o Readme[K[K[KPrimeiro commit:[K com ignore e READEM[K[KME"
+[master (root-commit) 8a6add7] Primeiro commit com ignore e README
+ Committer: turma2 <turma2@UbuntuGC.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 2 files changed, 3 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino "B[KBicofino"
+error: key does not contain a section: bicofino
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global bicofino "Bicofino"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kgit commit -m "Primeiro commit com ignore e README"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kcommit -m "Primeiro commit com ignore e README"[K[K[K[K[K[K[Km[K-amend --autorh[K[K[Kthro[K[K[K[Khto[K[Kor='Danilo Chilene <bicoifno[Kbicofino@gmail.com'[K>'
+[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.4                                   Arquivo: .git/COMMIT_EDITMSG                                                                              [3;1H(B[mPrimeiro commit com ignore e README[5d# Please enter the commit message for your changes. Lines starting[6d# with '#' will be ignored, and an empty message aborts the commit.[7d#[8d# Author:    Danilo Chilene <bicofino@gmail.com>[9d# Committer: turma2 <turma2@UbuntuGC.(none)>[10d#[11d# On branch master[12d#[13d# Initial commit[14d#[15d# Changes to be committed:[16d#   (use "git rm --cached <file>..." to unstage)[17d#[18d#[9Gnew file:   .gitignore[19d#[9Gnew file:   README[20d#[21d# Untracked files:[22d#   (use "git add <file>..." to include in what will be committed)[23d#[24d#[9Gpizzaria/[50;70H(B[0;7m[ 22 linhas lidas ][51d^G(B[m Obter Ajuda[51;27H(B[0;7m^O(B[m Gravar[51;53H(B[0;7m^R(B[m Ler o Arq[51;79H(B[0;7m^Y(B[m Pág Anter[51;105H(B[0;7m^K(B[m Recort Txt[51;131H(B[0;7m^C(B[m Pos Atual[52d(B[0;7m^X(B[m Sair[52;27H(B[0;7m^J(B[m Justificar[52;53H(B[0;7m^W(B[m Onde está?[52;79H(B[0;7m^V(B[m Próx Pág[52;105H(B[0;7m^U(B[m Colar Txt[52;131H(B[0;7m^T(B[m Para Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[A[A[10d[A[50;61H(B[0;7m[ Palav: 91  Linhs: 23  Carac: 536 ][9d(B[m[1;146H(B[0;7mModificado[9d(B[md# Committer: turma2 <turma2@UbuntuGC.(none)>d[1P[9;49r[49;1H
+[1;52r[9;1H[50d(B[0;7mSalvar o buffer modificado (RESPONDER "Não" IRÁ DESTRUIR MODIFICAÇÕES) ?                                                                                     [51;1H S(B[m Sim[K[52d(B[0;7m N(B[m Não [52;17H(B[0;7m^C(B[m Cancelar[K[50;74H(B[0;7mNome do Arquivo para Gravar: .git/COMMIT_EDITMSG                        [51d^G(B[m Obter Ajuda[51;40H(B[0;7mM-D(B[m Formato DOS[51;79H(B[0;7mM-A(B[m Anexar[51;118H(B[0;7mM-B(B[m Arquivo Reserva[52d(B[0;7m^C(B[m Cancelar[14X[52;26H  [52;40H(B[0;7mM-M(B[m Formato Mac[52;79H(B[0;7mM-P(B[m Pre-anexar[50;49H[51d[39;49m(B[m[J[1;146H(B[0;7m          [50;68H(B[m[1K (B[0;7m[ Escrito 21 linhas ](B[m[K[52;157H[52;1H[?1049l[?1l>[master 3828cb3] Primeiro commit com ignore e README
+ Author: Danilo Chilene <bicofino@gmail.com>
+ Committer: turma2 <turma2@UbuntuGC.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 2 files changed, 3 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ 
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ 
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls -la
+total 24
+drwxr-xr-x 4 turma2 turmas 4096 2012-03-20 22:04 [0m[01;34m.[0m
+drwxr-xr-x 4 turma2 turmas 4096 2012-03-20 20:16 [01;34m..[0m
+drwxr-xr-x 8 turma2 turmas 4096 2012-03-20 22:07 [01;34m.git[0m
+-rw-r--r-- 1 turma2 turmas   15 2012-03-20 21:44 .gitignore
+drwxr-xr-x 2 turma2 turmas 4096 2012-03-20 21:09 [01;34mpizzaria[0m
+-rw-r--r-- 1 turma2 turmas   55 2012-03-20 22:04 README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global user.name "Your Name"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"D"a"n"i"l"o" "C"h"i"l"e"n"e"
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global user.name "Danilo Chilene"[4P[1@e[1@m[1@a[1@i[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"[K"[Kb"i"c"o"f"i"n"o"@"g"m"a"i"l"."c"o"m"
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git m[Kcommit
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	pizzaria/
+nothing added to commit but untracked files present (use "git add" to track)
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git commitnfig --global user.email "bicofino@gmail.com"[5Pname "Danilo Chilene"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la[Kgit commit --amend --author='Danilo Chilene <bicofino@gmail.com>'
+[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.4                                   Arquivo: .git/COMMIT_EDITMSG                                                                              [3;1H(B[mPrimeiro commit com ignore e README[5d# Please enter the commit message for your changes. Lines starting[6d# with '#' will be ignored, and an empty message aborts the commit.[7d# On branch master[8d#[9d# Initial commit[10d#[11d# Changes to be committed:[12d#   (use "git rm --cached <file>..." to unstage)[13d#[14d#[9Gnew file:   .gitignore[15d#[9Gnew file:   README[16d#[17d# Untracked files:[18d#   (use "git add <file>..." to include in what will be committed)[19d#[20d#[9Gpizzaria/[50;70H(B[0;7m[ 18 linhas lidas ][51d^G(B[m Obter Ajuda[51;27H(B[0;7m^O(B[m Gravar[51;53H(B[0;7m^R(B[m Ler o Arq[51;79H(B[0;7m^Y(B[m Pág Anter[51;105H(B[0;7m^K(B[m Recort Txt[51;131H(B[0;7m^C(B[m Pos Atual[52d(B[0;7m^X(B[m Sair[52;27H(B[0;7m^J(B[m Justificar[52;53H(B[0;7m^W(B[m Onde está?[52;79H(B[0;7m^V(B[m Próx Pág[52;105H(B[0;7m^U(B[m Colar Txt[52;131H(B[0;7m^T(B[m Para Spell[3d[51d[J[52;157H[52;1H[?1049l[?1l>[master d3abe8d] Primeiro commit com ignore e README
+ 2 files changed, 3 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git commit --amend --author='Danilo Chilene <bicofino@gmail.com>'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Knfig --global user.email "bicofino@gmail.com"^C
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git push
+fatal: No destination configured to push to.
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git pushcommit --amend --author='Danilo Chilene <bicofino@gmail.com>'
+[?1049h[1;52r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.4                                   Arquivo: .git/COMMIT_EDITMSG                                                                              [3;1H(B[mPrimeiro commit com ignore e README[5d# Please enter the commit message for your changes. Lines starting[6d# with '#' will be ignored, and an empty message aborts the commit.[7d# On branch master[8d#[9d# Initial commit[10d#[11d# Changes to be committed:[12d#   (use "git rm --cached <file>..." to unstage)[13d#[14d#[9Gnew file:   .gitignore[15d#[9Gnew file:   README[16d#[17d# Untracked files:[18d#   (use "git add <file>..." to include in what will be committed)[19d#[20d#[9Gpizzaria/[50;70H(B[0;7m[ 18 linhas lidas ][51d^G(B[m Obter Ajuda[51;27H(B[0;7m^O(B[m Gravar[51;53H(B[0;7m^R(B[m Ler o Arq[51;79H(B[0;7m^Y(B[m Pág Anter[51;105H(B[0;7m^K(B[m Recort Txt[51;131H(B[0;7m^C(B[m Pos Atual[52d(B[0;7m^X(B[m Sair[52;27H(B[0;7m^J(B[m Justificar[52;53H(B[0;7m^W(B[m Onde está?[52;79H(B[0;7m^V(B[m Próx Pág[52;105H(B[0;7m^U(B[m Colar Txt[52;131H(B[0;7m^T(B[m Para Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[A[A[A[A[A[A[50d[K[14d[A[A[A[A[A[A[A[A[A[A[A[51d[J[52;157H[52;1H[?1049l[?1l>[master f927678] Primeiro commit com ignore e README
+ 2 files changed, 3 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git push
+fatal: No destination configured to push to.
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global push.default "matching"
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global push.default "matching"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K
+fatal: No destination configured to push to.
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global color.status auto
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git config --global color.branch auto
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ 
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git^C
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ [10P(reverse-i-search)`':[C^C
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ [H[2J]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git log
+[?1h=commit f927678045600e7babfec3062067b926d61f3c6b[m
+Author: Danilo Chilene <bicofino@gmail.com>[m
+Date:   Tue Mar 20 22:06:19 2012 -0300[m
+[m
+    Primeiro commit com ignore e README[m
+[K[?1l>]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	[31mpizzaria/[m
+nothing added to commit but untracked files present (use "git add" to track)
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git status[Klog
+[?1h=commit f927678045600e7babfec3062067b926d61f3c6b[m
+Author: Danilo Chilene <bicofino@gmail.com>[m
+Date:   Tue Mar 20 22:06:19 2012 -0300[m
+[m
+    Primeiro commit com ignore e README[m
+[K[?1l>]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git
+git                 git-receive-pack    git-shell           git-upload-archive  git-upload-pack     
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ gitk
+O programa 'gitk' não está instalado no momento.  Para executar 'gitk' por favor peça ao seu administrador para instalar o pacote 'gitk'
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls
+[0m[01;34mpizzaria[0m  README
+]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls -larht
+total
