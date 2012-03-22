@@ -19642,4 +19642,154 @@ total 1432
 drwxr-xr-x 3 turma2 turmas    4096 2012-03-20 22:58 [0m[01;34m.[0m
 drwxr-xr-x 4 turma2 turmas    4096 2012-03-20 22:04 [01;34m..[0m
 -rw-r--r-- 1 turma2 turmas       0 2012-03-20 20:21 __init__.py
--rw-r--r-- 1 turma2 turmas     145 2012-03-
+-rw-r--r-- 1 turma2 turmas     145 2012-03-20 20:31 __init__.pyc
+-rwxr-xr-x 1 turma2 turmas     503 2012-03-20 20:21 [01;32mmanage.py[0m
+drwxr-xr-x 2 turma2 turmas    4096 2012-03-20 22:57 [01;34mpedidos[0m
+-rw-r--r-- 1 turma2 turmas   40960 2012-03-20 22:58 pizzaria.sqlite
+-rw-r--r-- 1 turma2 turmas    5093 2012-03-20 22:27 settings.py
+-rw-r--r-- 1 turma2 turmas    2858 2012-03-20 22:27 settings.pyc
+-rw-r--r-- 1 turma2 turmas 1380352 2012-03-20 22:50 typescript
+-rw-r--r-- 1 turma2 turmas     565 2012-03-20 20:42 urls.py
+-rw-r--r-- 1 turma2 turmas     504 2012-03-20 20:43 urls.pyc
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ git log
+[?1h=commit 591009e164ec00424189147fa4b8f2194c7e8d10[m
+Author: Danilo Chilene <bicofino@gmail.com>[m
+Date:   Tue Mar 20 22:19:40 2012 -0300[m
+[m
+    Inicio do projeto pizzaria; admin funcionando[m
+[m
+commit f927678045600e7babfec3062067b926d61f3c6b[m
+Author: Danilo Chilene <bicofino@gmail.com>[m
+Date:   Tue Mar 20 22:06:19 2012 -0300[m
+[m
+    Primeiro commit com ignore e README[m
+[K[?1l>(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ pwd
+/home/turma2/modulo3/repo/pizzaria
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repo/pizzariaturma2@UbuntuGC:~/modulo3/repo/pizzaria$ cd ..
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ls
+[0m[01;34mpizzaria[0m  README
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git add .
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ 
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ 
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git remote add origin git@github.com:bicofino/modulo3.git
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git -[K-m commit ""A"d"i"c"i"o"n"a"d"o" "t"a"[1P"[1P"a"p"o"p"[1P"[1P"p" "c"l"i"e"n"t"e"s" "[1P"
+Unknown option: -m
+usage: git [--version] [--exec-path[=GIT_EXEC_PATH]] [--html-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects]
+           [--bare] [--git-dir=GIT_DIR] [--work-tree=GIT_WORK_TREE]
+           [--help] COMMAND [ARGS]
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git -m commit "Adicionado app clientes"[1P[1P[1P[C[C[C[C[C[C[C[C[C[1@-[1@m[1@ 
+[master aa22995] Adicionado app clientes
+ 5 files changed, 18491 insertions(+), 1 deletions(-)
+ create mode 100644 pizzaria/pedidos/__init__.py
+ create mode 100644 pizzaria/pedidos/models.py
+ create mode 100644 pizzaria/pedidos/tests.py
+ create mode 100644 pizzaria/pedidos/views.py
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$   git push -u origin master
+The authenticity of host 'github.com (207.97.227.239)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,207.97.227.239' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ ssh-keygen -t rsa -C "bicofino@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/turma2/.ssh/id_rsa): shas    
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/turma2/.ssh/id_rsa.
+Your public key has been saved in /home/turma2/.ssh/id_rsa.pub.
+The key fingerprint is:
+f5:84:20:4b:d0:17:c9:d2:04:cb:b3:83:a2:c0:3a:4e bicofino@gmail.com
+The key's randomart image is:
++--[ RSA 2048]----+
+|    .o+=+o       |
+|     oo+=. .     |
+|      =o  o .    |
+|.    . o . o     |
+|... . o S   .    |
+|o. .   .         |
+|+E               |
+|o.               |
+| .               |
++-----------------+
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ cd ~.ssh
+bash: cd: ~.ssh: Arquivo ou diretório não encontrado
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ cd 
+(mod3.env)]0;turma2@UbuntuGC: ~turma2@UbuntuGC:~$ ls
+[0m[01;34m-[0m  [01;34mÁrea de Trabalho[0m  [01;34mDocumentos[0m  [01;34mDownloads[0m  [01;34mImagens[0m  [01;34mModelos[0m  [01;34mmodulo3[0m  [01;34mMúsica[0m  [01;34mPúblico[0m  [01;34mpython[0m  [01;34mVídeos[0m
+(mod3.env)]0;turma2@UbuntuGC: ~turma2@UbuntuGC:~$ cd .ssh/
+(mod3.env)]0;turma2@UbuntuGC: ~/.sshturma2@UbuntuGC:~/.ssh$ ls
+id_rsa  id_rsa.pub  known_hosts
+(mod3.env)]0;turma2@UbuntuGC: ~/.sshturma2@UbuntuGC:~/.ssh$ cat id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCs7+2YK9VKI4xvlxnjsrq+hs3jjiaY571nAtqzI9jTjyujLVGmR+PMxDlYBctucpTpSeoZyrmNHUGTtFGaHI/KpyYR7MuSHjsYKYQ4yaNB+dKPIWfwf45iEwbVO5GRzVLbKvO/WaCfcCro9XQ35l6xsfO800sdow7NB+s+ZYzkOAIViwVV2MdS5wed5vr8YLUZupgvHbhuTcbgzJbm+SwTZcayApaSH2joWrv3oYfjgv3mmrTn9o/5voUawIkPnk+kHMeSshvHVv8Nl1B/5tsmYOYTvkxZ/UuJMeTi0+nLLWFVBd6BV77BzEoEJqj468v/Gue3EKcUm9nzJqHfbMX9 bicofino@gmail.com
+(mod3.env)]0;turma2@UbuntuGC: ~/.sshturma2@UbuntuGC:~/.ssh$ cat id_rsa.pub [K[K
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,D8E0A6D1BC13311E9899B47706B2EEAF
+
+TCsJ8bwxb9b4FumTbGAzTn/JoOqQvBRzgYcQFknr3Zst2K1H1d8AVO0/uNGr8FDH
+ctVj4Icz0hmmyaKMSV4kXmtWDfutySL7uwjJL31Ajo3rcvmxGmjepFaHU70rPGVU
+MRFrMjAEjeblnsNaU3c35lvptC1IVT5GD1FhIPe+/zkmNvD3c0RlrpCiQk5qMaaf
+rbnrzbrVlBldnvvQfrI8teoFbGRU9kPBap3dH3825dmeWGot4PpKwsEKIQGAIhDX
+xg2XLkMgS1Z7t0aIFqexl1nf/T0Agbdr5tBfjbq01+6QNUbZ8ZqCM9pAVfD8FMgy
+3LK7RK8YCus3FDBGemnhEAYon8UkzrsGhezxZTjbSfHYgHh66a/MdCCKCvkhf4uw
+Mjh+wjnN6Zop86mwR1PFuxg0xKefJpwi9yuJKZtCEbtRFKeSBd7TT/C/BMSME+kg
+xmxoXN7wjxkvZT2weePkKXgGE4QFKJSg9uEPgDV82rqmgqS/ylYbyZsPt3jXjOhN
+AAyRxegu3E7z1u4qFpKBONws4wwFNyfS24EWBHnPNcGyMWFk2jbjpCDkI6jeLX1v
+993XBr+gS6uTUMHHyg3tC78V+d7cOiILYkT6ljiRIBFHiI0WrjKdJLZTURk0Uyfh
+mM/gg3Nfub0unz/4MoXfGd/iOS7clVBVbbtt2vLkPvzVvdHjuNEyLdOr7vyq5m/K
+zNx6l07qpLaC3PN/xolFpmT0Ap0z7SBJCkLuypJ15y8jMqEEYkz2+V5nHkkbvWHn
+XCDNtKT6LlU5NiMrJlTFO2NlVlwt6j6cUwQlnNOAi77QxRfaCUY+eDyAZ/ExE97B
+rq7PSQ82402WuPpIhwU/jyCv93dhNMjIbSG1W1ZIpcJK3LXTgKMOvV4WCs9WokDp
+lA9mSfGZtT2KW8gYrj9rJKL8a+XA9B2ILv1RQptks5ohtZab/jFq0wS+Ot6cMwgu
+rGtvgtHdWPrJyxXVglDRkv6u054jRH7whWdw2Tj6FauNtIYgPIrPusJ/3+ejtLIq
+yuS7+6eyN3a6S4yjyUnS3bYK5nw1wXCUfCyjzBJcwb8ZVzQFPZ9F9iutkUxKPXo+
+AvikeVD3qVhMquqjXx7NRQF2uq2s5XN1eT470uBS18l/5jOGmQ1QQBrfSAxRMoUP
+bTBnLSXlgNZqcn6Sci3w0BUpdevvFUypMxYE90qij2dyVXECCmBepFwPxTM6dmjh
+H1XJykqVM66erV5U0ct6OYUw6ljZAXh0I57YVIevuDFhjPQocwELiht5H01qQKKV
+J65BfjBgkWlS8YSbNdxThdLzP7IYEkjqpJCJ1BzgOCsMXT2Odv2/kzWzpXhqjRIM
+ga5e9WwO+0N8rnrMV3NLMyIjesrGr28NpRxTK6vjkmHlUcoCS57sLp3kOY591oub
+JSRtSAUNrQQgA7YgbrLK8+32Mwumcc9fihuYtb6vvPMEACyxzNAyBxVJ+wclSdC1
+KPWJtpnOLq6eUn96FBhTULM2rXodYozj9ZNHskg8MnDb0VeliyFmg1hjaz0BcNrU
+czYptB+nQXFXPj8NitK5NxBDAjhpgzTjxEi+ghTrpvxDqgs7UBbVCxsNEgNsXWqP
+-----END RSA PRIVATE KEY-----
+(mod3.env)]0;turma2@UbuntuGC: ~/.sshturma2@UbuntuGC:~/.ssh$ cat id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCs7+2YK9VKI4xvlxnjsrq+hs3jjiaY571nAtqzI9jTjyujLVGmR+PMxDlYBctucpTpSeoZyrmNHUGTtFGaHI/KpyYR7MuSHjsYKYQ4yaNB+dKPIWfwf45iEwbVO5GRzVLbKvO/WaCfcCro9XQ35l6xsfO800sdow7NB+s+ZYzkOAIViwVV2MdS5wed5vr8YLUZupgvHbhuTcbgzJbm+SwTZcayApaSH2joWrv3oYfjgv3mmrTn9o/5voUawIkPnk+kHMeSshvHVv8Nl1B/5tsmYOYTvkxZ/UuJMeTi0+nLLWFVBd6BV77BzEoEJqj468v/Gue3EKcUm9nzJqHfbMX9 bicofino@gmail.com
+(mod3.env)]0;turma2@UbuntuGC: ~/.sshturma2@UbuntuGC:~/.ssh$ [H[2J(mod3.env)]0;turma2@UbuntuGC: ~/.sshturma2@UbuntuGC:~/.ssh$ 
+(mod3.env)]0;turma2@UbuntuGC: ~/.sshturma2@UbuntuGC:~/.ssh$ ls[K[Kcd
+(mod3.env)]0;turma2@UbuntuGC: ~turma2@UbuntuGC:~$ ls
+[0m[01;34m-[0m  [01;34mÁrea de Trabalho[0m  [01;34mDocumentos[0m  [01;34mDownloads[0m  [01;34mImagens[0m  [01;34mModelos[0m  [01;34mmodulo3[0m  [01;34mMúsica[0m  [01;34mPúblico[0m  [01;34mpython[0m  [01;34mVídeos[0m
+(mod3.env)]0;turma2@UbuntuGC: ~turma2@UbuntuGC:~$ cd python/[K[Kmodulo3/
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$ ls
+[0m[01;34mmod3.env[0m  [01;34mrepo[0m
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$ git push
+fatal: Not a git repository (or any of the parent directories): .git
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$   git push -u origin master
+fatal: Not a git repository (or any of the parent directories): .git
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$ 
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$  git remote add origin git@github.com:bicofino/modulo3.git
+fatal: Not a git repository (or any of the parent directories): .git
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$ 
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$ git pushls[K^C
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$  git remote add origin git@github.com:bicofino/modulo3.git
+fatal: Not a git repository (or any of the parent directories): .git
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3turma2@UbuntuGC:~/modulo3$ cd repo/
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ cd repo/git pushls[Kcd modulo3/ls[Kcdat id_rsa.pub [Kgit ^C
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git push
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'git@github.com:bicofino/modulo3.git'
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ git push -u origin master
+Counting objects: 21, done.
+Delta compression using up to 2 threads.
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   4% (1/21)   Writing objects:   9% (2/21)   Writing objects:  14% (3/21)   Writing objects:  19% (4/21)   Writing objects:  23% (5/21)   Writing objects:  28% (6/21)   Writing objects:  33% (7/21)   Writing objects:  38% (8/21)   Writing objects:  42% (9/21)   Writing objects:  47% (10/21)   Writing objects:  52% (11/21)   Writing objects:  57% (12/21)   Writing objects:  61% (13/21)   Writing objects:  66% (14/21)   Writing objects:  71% (15/21)   Writing objects:  76% (16/21)   Writing objects:  80% (17/21)   Writing objects:  85% (18/21)   Writing objects:  90% (19/21)   Writing objects:  95% (20/21)   Writing objects: 100% (21/21)   Writing objects: 100% (21/21), 219.07 KiB, done.
+Total 21 (delta 4), reused 0 (delta 0)
+To git@github.com:bicofino/modulo3.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+(mod3.env)]0;turma2@UbuntuGC: ~/modulo3/repoturma2@UbuntuGC:~/modulo3/repo$ exit
+
+Script concluído em Ter 20 Mar 2012 23:11:02 BRT
