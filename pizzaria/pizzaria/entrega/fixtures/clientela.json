@@ -1,0 +1,282 @@
+[
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0000", 
+      "fone": "3688-0169", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2000, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 0
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0001", 
+      "fone": "2189-6497", 
+      "logradouro": "Rua Girassol", 
+      "numero": 2001, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 1
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0002", 
+      "fone": "4808-2050", 
+      "logradouro": "Rua Girassol", 
+      "numero": 2002, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 2
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0003", 
+      "fone": "4905-0774", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2003, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 3
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0004", 
+      "fone": "3778-8078", 
+      "logradouro": "Rua Girassol", 
+      "numero": 2004, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 4
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0005", 
+      "fone": "2531-8737", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2005, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 5
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0006", 
+      "fone": "2175-1600", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2006, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 6
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0007", 
+      "fone": "4773-4407", 
+      "logradouro": "Rua Girassol", 
+      "numero": 2007, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 7
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0008", 
+      "fone": "3698-6820", 
+      "logradouro": "Rua Girassol", 
+      "numero": 2008, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 8
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0009", 
+      "fone": "4711-2183", 
+      "logradouro": "Rua Fidalga", 
+      "numero": 2009, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 9
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0010", 
+      "fone": "3343-4492", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2010, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 10
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0011", 
+      "fone": "3251-9199", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2011, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 11
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0012", 
+      "fone": "2818-5560", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2012, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 12
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0013", 
+      "fone": "2176-3790", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2013, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 13
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0014", 
+      "fone": "2735-5724", 
+      "logradouro": "Rua Fidalga", 
+      "numero": 2014, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 14
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0015", 
+      "fone": "4269-7995", 
+      "logradouro": "Rua Fidalga", 
+      "numero": 2015, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 15
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0016", 
+      "fone": "4353-1236", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2016, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 16
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0017", 
+      "fone": "3704-9508", 
+      "logradouro": "Rua Girassol", 
+      "numero": 2017, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 17
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0018", 
+      "fone": "4784-2095", 
+      "logradouro": "Rua Harmonia", 
+      "numero": 2018, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 18
+  }, 
+  {
+    "fields": {
+      "ramal": "", 
+      "complemento": "", 
+      "nome": "Cliente #0019", 
+      "fone": "4508-9918", 
+      "logradouro": "Rua Girassol", 
+      "numero": 2019, 
+      "obs": "", 
+      "email": ""
+    }, 
+    "model": "entrega.cliente", 
+    "pk": 19
+  }
+]
