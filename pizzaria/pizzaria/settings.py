@@ -106,6 +106,7 @@ ROOT_URLCONF = 'pizzaria.urls'
 WSGI_APPLICATION = 'pizzaria.wsgi.application'
 
 TEMPLATE_DIRS = (
+    '/home/turma2/modulo3/modulo3/pizzaria/pizzaria/entrega/templates/entrega'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
