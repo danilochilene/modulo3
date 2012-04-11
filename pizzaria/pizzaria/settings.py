@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Danilo F. Chilene', 'danilo@idev.com.br'),
+    # ('Your Name', 'your_email@example.com'),
 )
 
 MANAGERS = ADMINS
@@ -27,7 +27,7 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Sao_Paulo'
+TIME_ZONE = None
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -67,6 +67,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+    "/home/turma2/modulo3/modulo3-hugo/modulo3/pizzaria/pizzaria/static",
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -81,7 +82,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'ktl!8y-8zr6s28tyu&amp;(o5g%rypa8(672p%l_78^6-&amp;3iutl9^%'
+SECRET_KEY = '4e-aejpcka)waa2i)33y51_@hkq3rol5pl(x2%6k(51fe0#@i4'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -106,7 +107,7 @@ ROOT_URLCONF = 'pizzaria.urls'
 WSGI_APPLICATION = 'pizzaria.wsgi.application'
 
 TEMPLATE_DIRS = (
-    '/home/turma2/modulo3/modulo3/pizzaria/pizzaria/entrega/templates/entrega'
+    "/home/turma2/modulo3/modulo3-hugo/modulo3/pizzaria/pizzaria/template",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -123,7 +124,7 @@ INSTALLED_APPS = (
      'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
      'django.contrib.admindocs',
-     'pizzaria.entrega',
+     'pizzaria.entrega'
 )
 
 # A sample logging configuration. The only tangible logging

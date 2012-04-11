@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1>Lista de pizzas a fazer</h1>
+<table border="1">
+<tr><td>id</td><td>Nome</td><td>Endereço</td>
+{% for cliente in clientes %}
+<tr>
+    <td><a href="{{ cliente.get_absolute_url }}">{{ cliente.id }}</a></td>
+    <td>{{cliente.nome }}</td>
+    <td>{{ cliente.endereco }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
