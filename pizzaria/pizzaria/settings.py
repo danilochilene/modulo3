@@ -1,3 +1,7 @@
+import os
+
+PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
+
 # Django settings for pizzaria project.
 
 DEBUG = True
@@ -27,7 +31,7 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = None
+TIME_ZONE = 'America/Sao_Paulo'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -67,7 +71,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    "/home/turma2/modulo3/modulo3-hugo/modulo3/pizzaria/pizzaria/static",
+    os.path.join(PROJECT_PATH, 'static'),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -107,7 +111,7 @@ ROOT_URLCONF = 'pizzaria.urls'
 WSGI_APPLICATION = 'pizzaria.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/home/turma2/modulo3/modulo3-hugo/modulo3/pizzaria/pizzaria/template",
+    os.path.join(PROJECT_PATH, 'template'),
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.

@@ -4,25 +4,13 @@
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/basico.css" />
     <title>{% block title %}Titulo da Pagina{% endblock %}</title>
 </head>
+<body>
 
 <h1>{% block chamada %}Chamada{% endblock %}</h1>
 
 {% block corpo %}
 Aqui vai o corpo da página
 {% endblock corpo %}
-
-<body>
-    <div id="sidebar">
-        {% block sidebar %}
-            <ol>
-                {% for pizza in lista %}
-                <li>{{pizza}}</li>
-            </ol>
-        {% endfor %}         
-        {% endblock %}
-    </div>
-    <div id="content">
-        {% block content %}<img src="{{ STATIC_URL }}pizza.jpg" width="120" />{% endblock %}
-    </div>
+<img src="{{ STATIC_URL }}pizza.jpg" width="120" />
 </body>
 </html>

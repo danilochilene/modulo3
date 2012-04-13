@@ -1,10 +1,16 @@
 <html>
 <body>
 <h1>Lista de pizzas a fazer</h1>
+
+<h2>{{hora}}</h2>
+
 <ol>
-{% for pizza in lista %}
-    <li>{{pizza}}</li>
+{% for pizza in fila %}
+   <li>{{pizza}}</li>
 {% endfor %}
 </ol>
+
 </body>
+
+
 </html>

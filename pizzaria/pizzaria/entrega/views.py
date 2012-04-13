@@ -1,11 +1,13 @@
 #coding=utf8
 # Create your views here.
 
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 import datetime
-from pizzaria.entrega.models import Pizza
+from pizzaria.entrega.models import Pizza, Pedido
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from .forms import ClienteModelForm, ObservacaoClienteForm
+from django.core.urlresolvers import reverse
 
 class HoraView(TemplateView):
     template_name = 'entrega/hora.html'
@@ -29,7 +31,37 @@ def pizzas_pendentes_na_unha(request):
     return HttpResponse(html)
     
 def pizzas_pendentes(request):
-    lista_de_pizzas = Pizza.objects.all()
     return render(request, 'entrega/pizzas.html',
-                  {'lista': lista_de_pizzas},
-                  content_type='text/html')
+                           {"fila": Pizza.objects.order_by('pedido').all(),
+                            "hora": datetime.datetime.now()},
+                           content_type="text/html")
+
+def cadastro(request):
+    if request.method == 'POST':
+        formulario = ClienteModelForm(request.POST)
+        if formulario.is_valid():
+            formulario.save()
+            # XXX: trocar URL por home
+            return HttpResponseRedirect(reverse('clientes'))
+    else:
+        formulario = ClienteModelForm()
+    return render(request, 'entrega/cadastro.html',
+        {'formulario':formulario})
+        
+def pedido_pronto(request):        
+    if request.method == 'POST':
+        pedido_id = request.POST.get('pedido_id')
+        pedido = Pedido.objects.get(pk=pedido_id)
+        pedido.pronto = True
+        pedido.save()
+    return HttpResponseRedirect(reverse('pizzas'))
+    
+def cliente_obs(request):
+    if request.method == 'POST':
+        formulario = ObservacaoClienteForm(request.POST)
+        if formulario.is_valid():
+            cliente_id = request.POST.get('cliente_id')
+            cliente = Cliente.objects.get(pk=cliente_id)
+            cliente.obs = formulario.cleaned_data['obs']
+            cliente.save()
+        return HttpResponseRedirect(reverse('ficha-cliente'))

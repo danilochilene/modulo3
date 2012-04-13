@@ -1,8 +1,28 @@
 {% extends "base.html" %}
 
-{% block title %}Lista de Pizzas{% endblock %}
+{% block chamada %}Lista de pizzas a fazer{% endblock %}
 
-{% block content %} 
-{% block sidebar %} 
-{% endblock %}
-{% endblock %}
+{% block corpo %}
+
+<h1>{{hora}}</h1>
+
+<table border="1">
+{% for pizza in lista %}
+   <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>
+            <form action="{% url pedido-pronto %}" method="POST">
+                {% csrf_token %}
+                <input type="hidden" name="pedido_id" value="{{pizza.pedido_id}}">
+                <input type="submit" value="Pedido {{pizza.pedido_id}} pronto" name="pronto">
+            </form>
+        </td>
+        <td>{{pizza.pedido_id}}</td>        
+        <td>{{pizza}}</td>
+   </tr>
+{% empty %}
+    <tr><th>Nenhuma pizza a fazer</th></tr>
+{% endfor %}   
+</table>
+
+{% endblock corpo %}
